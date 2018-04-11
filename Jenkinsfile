@@ -1,9 +1,5 @@
 node {
     def app
-
-    stage('Fix permission'){
-      sh "sudo chown root:jenkins /run/docker.sock"
-   }	
   
 
     stage('Clone repository') {
