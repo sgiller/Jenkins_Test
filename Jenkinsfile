@@ -13,7 +13,7 @@ node {
          * docker build on the command line */
         app = docker.build("test")
     }
-
+ 
     stage('Test image') {
 
         app.inside {
